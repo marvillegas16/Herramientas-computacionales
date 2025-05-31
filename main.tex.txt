@@ -1,0 +1,64 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+
+\begin{document}
+\title{Proyecto 2 Villegas Gaytan María Emilia}
+\author{Villegas Gaytan María Emilia}
+\date{May 2025}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Introducción}
+
+El objetivo de este informe es analizar la evolución de la prevalencia de obesidad en adultos a nivel mundial, con base en una base de datos publicada por la Organización Mundial de la Salud (OMS). Se busca identificar tendencias temporales, diferencias por sexo, y realizar un análisis estadístico y visual que permita comprender mejor la distribución del fenómeno.
+
+\section{Contexto de la base de datos}
+
+La obesidad es uno de los principales factores de riesgo para enfermedades crónicas no transmisibles como diabetes tipo 2, enfermedades cardiovasculares y algunos tipos de cáncer. La base de datos empleada contiene información sobre la prevalencia de obesidad en adultos (mayores de 18 años), definida como un índice de masa corporal (IMC) mayor o igual a 30.
+
+Los datos están segmentados por país, sexo (ambos, hombres y mujeres), y año (desde 1975 hasta 2016). Las cifras se presentan como porcentajes estimados de la población adulta con obesidad, incluyendo un intervalo de confianza.
+
+\section{Descripción de la base de datos}
+
+La base contiene información desde 1975 hasta 2016 para más de 190 países. Las columnas principales son:
+
+\begin{itemize}
+  \item País
+  \item Año
+  \item Prevalencia de obesidad (ambos sexos)
+  \item Prevalencia de obesidad (hombres)
+  \item Prevalencia de obesidad (mujeres)
+\end{itemize}
+
+Se realizó un resumen estadístico general (mínimo, máximo, media, mediana y desviación estándar) para visualizar el comportamiento de los datos.
+
+ \caption{Resumen estadístico de la prevalencia de obesidad (valores porcentuales estimados)}
+\end{figure}
+
+Asimismo, se identificaron celdas con datos faltantes, y se decidió excluirlas del análisis para evitar sesgos.
+
+\section{Conclusión individual}
+
+El análisis muestra un incremento sostenido en la prevalencia de obesidad a nivel global, especialmente en países desarrollados como Estados Unidos y México. Las mujeres presentan, en general, valores más altos que los hombres. Este fenómeno representa un problema de salud pública urgente que requiere estrategias multidisciplinarias y políticas preventivas eficaces.
+
+\section{Referencias}
+
+\begin{itemize}
+    \item Organización Mundial de la Salud (OMS). Prevalencia mundial de obesidad. Datos extraídos de: \url{https://www.who.int/}
+    \item Dataset original: Global Health Observatory (GHO) Data, WHO
+\end{itemize}
+
+\end{document}
+
